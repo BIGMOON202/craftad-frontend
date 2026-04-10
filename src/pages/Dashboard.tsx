@@ -169,6 +169,7 @@ const Dashboard = () => {
                     name="JFrog"
                     logoText="JFrog"
                     headerBarImage="/images/bar2.png"
+                    logoImage="/images/jfrog.png"
                     projectCount="2 פרויקטים קיימים"
                     lastModified="תאריך שינוי אחרון: 1.8.2024"
                   />
@@ -176,13 +177,15 @@ const Dashboard = () => {
                     name="Q2 Israel"
                     logoText="Q2"
                     headerBarImage="/images/bar3.png"
+                    logoImage="/images/q2.png"
                     projectCount="5 פרויקטים קיימים"
                     lastModified="תאריך שינוי אחרון: 10.8.2024"
                   />
                   <BrandCard
                     name="Q2 Israel"
                     logoText="Q2"
-                    headerBarImage="/images/bar3.png"
+                    headerBarImage="/images/bar1.png"
+                    logoImage="/images/q2.png"
                     projectCount="5 פרויקטים קיימים"
                     lastModified="תאריך שינוי אחרון: 10.8.2024"
                   />

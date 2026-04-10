@@ -12,6 +12,8 @@ interface BrandCardProps {
   lastModified?: string;
   isCreateCard?: boolean;
   badgeText?: string;
+  /** Logo badge image in header (default Accenture) */
+  logoImage?: string;
 }
 
 const BrandCard = ({
@@ -22,6 +24,7 @@ const BrandCard = ({
   lastModified,
   isCreateCard,
   badgeText,
+  logoImage = "/images/accenture-icon.png",
 }: BrandCardProps) => {
   if (isCreateCard) {
     return (
@@ -65,7 +68,7 @@ const BrandCard = ({
         <div className="absolute bottom-0 right-4 translate-y-1/2 pt-[60px] ">
           <div className="w-[190px] h-[140px] flex items-center justify-center">
             <img
-              src="/images/accenture-icon.png"
+              src={logoImage}
               alt=""
               className="h-[140px] w-[190px] object-contain"
               width={48}
